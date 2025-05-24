@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WooL — Магазин одежды для домашних животных</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <input type="checkbox" id="burger-toggle">
+    <label for="burger-toggle" class="burger-menu">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+    </label>
+    
+    <nav>
+        <img class="header-logo" src="https://media.discordapp.net/attachments/890025395565494313/1375895751237832764/8f38875a26342724.png?ex=68335a46&is=683208c6&hm=364d29fee6ce2d8dd7e93ee8d91992866da55677386712c56c203e4f08f8fea0&=&format=webp&quality=lossless&width=263&height=109" alt="header_logo">
+        <a href="wooL.html#">Главная</a>
+        <a href="dogs.html">Для собак</a>
+        <a href="cats.html">Для кошек</a>
+        <a href="rodents.html">Для грызунов</a>
+        <a href="birds.html">Для птиц</a>
+        <a href="#about">О нас</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="basket.html">Корзина</a>
+    </nav>
+    
+    <nav class="mobile-menu">
+        <label for="burger-toggle" class="close-btn">
+            <i class="fas fa-times"></i>
+        </label>
+        <a href="wooL.html#">Главная</a>
+        <a href="dogs.html">Для собак</a>
+        <a href="cats.html">Для кошек</a>
+        <a href="rodents.html">Для грызунов</a>
+        <a href="birds.html">Для птиц</a>
+        <a href="#about">О нас</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="basket.html">Корзина</a>
+    </nav>
+
+</header>
+</nav>
+
+    <!-- Контент -->
+    <div class="container">
+        <!-- Заголовок -->
+        <h1>Добро пожаловать в WooL!</h1>
+       <!-- Категории -->
+        <div class="categories">
+            <div class="category" id="dogs">
+                <img src="https://media.discordapp.net/attachments/890025395565494313/1374822980764569610/385_20250521182455.PNG?ex=682f732d&is=682e21ad&hm=99bacb5829f58d5c28b62e1697fe123faa0958a381283490445c4b161d363887&=&format=webp&quality=lossless&width=720&height=720" alt="Одежда для собак">
+                <a href="dogs.html">Для собак</a>
+            </div>
+            <div class="category" id="cats">
+                <img src="https://media.discordapp.net/attachments/890025395565494313/1374822980500197488/385_20250521182446.PNG?ex=682f732d&is=682e21ad&hm=0341cea99c290b0848e539dccfc3086886bf06b70a78d60e82100fa0e6cbdf8f&=&format=webp&quality=lossless&width=720&height=720" alt="Одежда для кошек">
+                <a href="cats.html">Для кошек</a>
+            </div>
+            <div class="category" id="rodents">
+                <img src="https://media.discordapp.net/attachments/890025395565494313/1374822981796102164/385_20250521182435.PNG?ex=682f732d&is=682e21ad&hm=accb6cfbcbd771f3651f0f60a083b79c49d20811ca5648bef8acd5afd9aebc6b&=&format=webp&quality=lossless&width=720&height=720" alt="Одежда для грызунов">
+                <a href="rodents.html">Для грызунов</a>
+            </div>
+            <div class="category" id="birds">
+                <img src="https://media.discordapp.net/attachments/890025395565494313/1374822982207406190/385_20250521182441.PNG?ex=682f732d&is=682e21ad&hm=5aa28e85118c32e1e9e1913b230bd412fbbc53f27dddf3bb58da4075666442a7&=&format=webp&quality=lossless&width=720&height=720" alt="Одежда для птиц">
+                <a href="birds.html">Для птиц</a>
+            </div>
+        </div>
+    </div>
+
+		<!-- Товары -->
+		  <div class="products">
+            <!-- Пример товара -->
+            <div class="product">
+                <img src="https://img.freepik.com/free-photo/front-view-cute-dog-sitting_23-2148423669.jpg?t=st=1742414792~exp=1742418392~hmac=aab689a418d6bd0055e11eb5f3b106a3e28d5df07d55a5f7430b57bfc2586ae7&w=740" alt="Куртка для собаки">
+                <div class="product-info">
+                    <span class="price">800₽</span>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="description">
+                    Дождевик для собаки<br>
+                    Рейтинг: ★★★★☆ (4.5)<br>
+					✉︎ 52 отзыва
+                </div>
+            </div>
+
+            <!-- Еще товары -->
+            <div class="product">
+                <img src="https://img.freepik.com/premium-photo/songkran-summer-season-concept-with-scottish-cat-wearing-summer-cloth-sunglasses-white_1048944-4364486.jpg?w=1060" alt="Комбинезон для кошки">
+                <div class="product-info">
+                    <span class="price">954₽</span>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="description">
+                    Гавайская рубашка с очками для кошки<br>
+                    Рейтинг: ★★★★☆ (4.3)<br>
+					✉︎ 142 отзыва
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://ae04.alicdn.com/kf/S1708c0b045e746c0b53ae7cee24f8e879.jpg" alt="Пижама для хомячка">
+                <div class="product-info">
+                    <span class="price">260₽</span>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="description">
+                    
+					Летний костюм птицы для попугая<br>
+                    Рейтинг: ★★★☆☆ (3.5)<br>
+					✉︎ 89 отзывов
+                </div>
+            </div>
+			
+			  <div class="product">
+                <img src="https://img.freepik.com/premium-photo/midsection-man-holding-mouse_1048944-16192862.jpg?w=1060" alt="Платье для попугая">
+                <div class="product-info">
+                    <span class="price">430₽</span>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="description">
+                    Новогодняя шапочка для морской свинки<br>
+                    Рейтинг: ★★★★★ (4.9)<br>
+					✉︎ 34 отзыва
+                </div>
+            </div>
+			
+            <div class="product">
+                <img src="https://ae04.alicdn.com/kf/S28ebe943ac9d40e8a900fd50d3f4366bf.jpg" alt="Платье для попугая">
+                <div class="product-info">
+                    <span class="price">289₽</span>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="description">
+                    Желетка для кошек<br>
+                    Рейтинг: ★★★★★ (5.0)<br>
+					✉︎ 74 отзыва
+                </div>
+            </div>
+			
+			<div class="product">
+                <img src="https://ae04.alicdn.com/kf/Sba9268e7c19e4b3dab4588c0078aa6cfS.jpg" alt="Комбинезон для кошки">
+                <div class="product-info">
+                    <span class="price">137₽</span>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="description">
+                    Платье для кроликов и хомячков<br>
+                    Рейтинг: ★★★★☆ (3.8)<br>
+					✉︎ 56 отзывов
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://ae04.alicdn.com/kf/Sb2ccb7939b96435790216e9ddf7db7c9L.jpg" alt="Пижама для хомячка">
+                <div class="product-info">
+                    <span class="price">281₽</span>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="description">
+                    Свитер для кошки<br>
+                    Рейтинг: ★★★☆☆ (3.0)<br>
+					✉︎ 13 отзывов
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://ae04.alicdn.com/kf/Sc00e2f72f0774eee8eefc4ff0103aac0k.jpg" alt="Платье для попугая">
+                <div class="product-info">
+                    <span class="price">430₽</span>
+                    <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+                <div class="description">
+                    Костюм пчелы для собак<br>
+                    Рейтинг: ★★★★★ (5.0)<br>
+					✉︎ 9 отзывов
+                </div>
+            </div>
+        </div>
+		<style>
+		
+	<body>
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<style>
+a:link, a:visited {
+  background-color: #d01b1b;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #d01b1b;
+}
+</style>
+
+</style>
+        <!-- Отзывы -->
+        <div class="reviews"id="reviews">
+            <h2>Отзывы наших клиентов</h2>
+            <div class="review">
+                <p class="review-author">Анна Петрова</p>
+                <p>"Купила костюмчик для своей кошечки на праздник, и она выглядела просто восхитительно! Ткань очень мягкая и приятная на ощупь, а цветовая гамма идеально подошла к её окрасу. Важно отметить, что кошка не испытывала никакого дискомфорта, несмотря на то, что раньше относилась к одежде скептически. Магазин WooL предлагает действительно стильные и качественные вещи для питомцев. Обязательно вернусь за покупками снова!"</p>
+				Оценка покупателя ★★★★★ (5.0)
+            </div>
+            <div class="review">
+                <p class="review-author">Иван Иванов</p>
+                <p>"Приобрел платье для своей попугаихи, и оно стало настоящим хитом среди моих друзей! Попугай теперь выглядит как настоящая принцесса, а ткань настолько лёгкая, что птичка свободно летает и играет. Особенно хочу отметить внимание к деталям: украшение на воротнике добавляет особый шик этому платью. Теперь планирую купить ещё несколько вещей в магазине WooL для своих других питомцев."</p>
+				Оценка покупателя ★★★★★ (5.0)
+            </div>
+			  <div class="review">
+                <p class="review-author">Алексей Кореш</p>
+                <p>"Заказывал куртку для своей собаки Лаки на осень, и должен признаться, что остался доволен. Материал водоотталкивающий, и теперь прогулки в дождь стали гораздо приятнее. Правда, капюшон иногда сползает, но это мелочь. Главное, что собака чувствует себя комфортно, и я вижу, что ей нравится новая одежда. Единственное, что меня смутило — цена немного кусается, но зато качество на высоте."</p>
+				Оценка покупателя ★★★★☆ (4.5)
+            </div>
+			  <div class="review">
+                <p class="review-author">Владимир Братишкин</p>
+                <p>"Приобретал куртку для своего лабрадора Макса. Куртка отличная: водонепроницаемая, тёплая, хорошо защищает от ветра. Максу явно нравится, он стал гораздо спокойнее вести себя на прогулках в непогоду. Единственное, что меня смущает — капюшон иногда сползает, и его приходится поправлять. Да и застёжки могли бы быть покрепче. Но в целом, я доволен покупкой, и если бы не эти мелкие недочёты, поставил бы пять звёзд."</p>
+				Оценка покупателя ★★★☆☆ (3.0)
+            </div>
+			 <div class="review">
+                <p class="review-author">Елена Фаликула</p>
+                <p>"Недавно купила пижаму для своего хомячка Тимофея. Начну с хорошего: материал действительно мягкий и приятный на ощупь, хомячок явно чувствует себя уютно в этой пижамке. Цвет тоже понравился — милый розово-голубой оттенок. Однако есть несколько моментов, которые заставили задуматься. Во-первых, размер оказался немного маловат. Несмотря на то, что я выбрала согласно рекомендациям на сайте, пижама сидела довольно плотно, и хомячку было неудобно в ней бегать. Во-вторых, застежка-липучка, которая фиксирует пижаму, оказалась слабой и часто расстегивалась сама по себе. Из-за этого приходилось постоянно проверять, не сбежал ли хомячок. В-третьих, после первой же стирки ткань немного полиняла, хотя я стирала вручную в холодной воде. В целом, пижама красивая и удобная, но эти недостатки заставляют задуматься о повторной покупке."</p>
+				Оценка покупателя ★★★☆☆ (2.8)
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="basement" id="about">
+       
+		<p>Наши контакты:<p>
+		<p>Адресс: Санкт-Петербург, ул.Большая Морская д.18<p>
+		<p>Телефон: +7(000)000-00-00<p>
+		<p>E-mail: woolmarket@gmail.com<p> 
+		<p>© 2025 WooL. Все права защищены.</p>
+    </footer>
+	
+	
+</body>
+</html>
